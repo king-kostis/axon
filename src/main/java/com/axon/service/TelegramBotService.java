@@ -95,7 +95,8 @@ public class TelegramBotService {
         int nameIndex = text.indexOf("=");
         String newName = text.substring(nameIndex+1);
 
-        User user = userRepository.findById(update.getMessage().getChat().getId())
+        User user = userRepository
+                .findById(update.getMessage().getChat().getId())
                 .orElseThrow();
         user.setFirstName(newName);
         return user;
