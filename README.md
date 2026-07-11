@@ -1,2 +1,2 @@
 # axon
-An intelligent scheduling tool that manages your tasks without any user intervention except voice notes and texts
+An intelligent scheduling tool that manages your tasks with voice notes and texts through telegram.
